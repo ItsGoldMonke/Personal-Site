@@ -1,7 +1,14 @@
 /* Top Navigation Bar */
 
+.topnav img {
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 8px;
+  float: left;
+}
+
 .topnav {
-  background-color: #63594f;
+  background-color: #49423b;
   overflow: hidden;
 }
 
@@ -37,6 +44,7 @@
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
+  .topnav a:nth-child(2) {display: inline-block;}
   .topnav a.icon {
     float: right;
     display: block;
@@ -152,6 +160,7 @@ body {
   font-size: 25px;
   margin-left: 10vw;
   margin-right: 10vw;
+  margin-bottom: 10vw;
   border-radius: 1rem;
   padding-bottom: 2rem;
   padding-top: 1vw;
@@ -160,6 +169,7 @@ body {
 
 .icons i {
   font-size: 80px;
-  color: #566124;
+  color: #1b3a14;
 }
+
 
