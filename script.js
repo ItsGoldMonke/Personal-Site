@@ -24,3 +24,15 @@ if (button1) {
         }, 2000);
     });
 }
+
+
+// Projects button
+var projectBtn = document.getElementById('projectbtn');
+if (projectBtn) {
+    projectBtn.addEventListener('click', function () {
+        var projectsSection = document.querySelector('.projects');
+        if (projectsSection) {
+            projectsSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+}
