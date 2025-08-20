@@ -173,3 +173,46 @@ body {
 }
 
 
+
+
+
+
+/* Footer */
+
+
+footer {
+  background-color: #72a068;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.copyright {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  color: #264e3f;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+
+}
+
+footer a {
+  color: #264e3f;
+  text-decoration: none;
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+  padding: 5px;
+  transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  color: #264e3f;
+}
+
+.footer-icon:hover {
+  color: #2c5747b7;
+}
