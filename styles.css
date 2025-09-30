@@ -354,3 +354,128 @@ footer a {
 }
 
 
+
+/* Blog */
+.blog {
+  background-color: #588b4c;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 10vw;
+  border-radius: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 1vw;
+}
+
+.blogpost {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-size: 1.2rem;
+  color: #142921;
+  text-decoration: none;
+  display: block;
+  background-color: #35662a;
+  padding: 1rem;
+  color: #142921;
+  border-radius: 0.7rem;
+  transition: 0.6s;
+}
+
+
+
+.blogpost:hover {
+  transition: 0.45s;
+  color: #87bba8b7;
+}
+
+.blogpost a {
+  color: #153a2c;
+  font-weight: bold;
+
+}
+
+.blogcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.blogtitle {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.blogsubtitle {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+
+.blogdate {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90vw;
+}
+
+.blogsummary {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  white-space: normal;
+  overflow-wrap: break-word;
+  text-overflow: clip;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90vw;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.blogtext {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  max-width: 90vw;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  text-align: left;
+}
